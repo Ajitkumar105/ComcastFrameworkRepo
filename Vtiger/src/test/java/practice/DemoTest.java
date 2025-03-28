@@ -18,12 +18,12 @@ public static void main(String[] args) {
 	
 	if (s.toLowerCase().equals(rev.toLowerCase())) {
 		
-		System.err.println("String is Palindrome="+rev);
+		System.out.println("String is Palindrome="+rev);
 		
 	}
 	else {
 		
-		System.err.println("String is not Palindrome"+rev);
+		System.out.println("String is not Palindrome"+rev);
 		}
 	}
 
