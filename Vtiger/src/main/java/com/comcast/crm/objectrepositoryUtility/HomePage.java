@@ -20,6 +20,17 @@ WebDriver driver;
 		
 
 }
+	@FindBy(linkText="Products")
+	private WebElement productlink;
+	
+	
+	public WebElement getProductlink() {
+		return productlink;
+	}
+
+	public WebElement getAdminImg() {
+		return adminImg;
+	}
 	@FindBy(linkText="Organizations")
 	private WebElement orglink;
 	
